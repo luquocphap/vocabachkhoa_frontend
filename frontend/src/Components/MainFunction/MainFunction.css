@@ -1,0 +1,155 @@
+.MainFunction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    background-color: #f0f0f0;
+    margin-bottom: 50px;
+}
+
+.MainFunction h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.MainFunction hr{
+    width: 20%;
+    height: 2px;
+    background-color: black;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.function{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60%; 
+    gap: 80px;
+}
+
+.function div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 80%;
+    border-radius: 20px;
+    background-color: rgb(151, 186, 246);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.Dictionary-link .Dictionary-button {
+    /* ----- Các thuộc tính style button của bạn ở đây ----- */
+    background-color: black; /* Ví dụ màu nền */
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none; /* Đảm bảo button không bị gạch chân */
+    display: inline-flex; /* Để căn chỉnh icon và text dễ dàng */
+    align-items: center; /* Căn giữa icon và text theo chiều dọc */
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    gap: 10px; /* Khoảng cách giữa icon và text */
+    transition: background-color 0.3s ease; /* Hiệu ứng hover mượt */
+  }
+  
+  .Dictionary-link .Dictionary-button:hover {
+    background-color: #45a049; /* Ví dụ màu nền khi hover */
+  }
+  
+  /* CSS cho icon bên trong button */
+  .Dictionary-link .Dictionary-button .Dictionary-icon {
+    width: 20px; /* Điều chỉnh kích thước icon */
+    height: 20px;
+    margin-left: 8px; /* Khoảng cách giữa text và icon */
+  }
+
+.Flashcard-link .Flashcard-button {
+    /* ----- Các thuộc tính style button của bạn ở đây ----- */
+    background-color: black; /* Ví dụ màu nền */
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none; /* Đảm bảo button không bị gạch chân */
+    display: inline-flex; /* Để căn chỉnh icon và text dễ dàng */
+    align-items: center; /* Căn giữa icon và text theo chiều dọc */
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    gap: 10px; /* Khoảng cách giữa icon và text */
+    transition: background-color 0.3s ease; /* Hiệu ứng hover mượt */
+  }
+  
+  .Flashcard-link .Flashcard-button:hover {
+    background-color: #45a049; /* Ví dụ màu nền khi hover */
+  }
+  
+
+
+
+.Quiz-link .Quiz-button {
+    /* ----- Các thuộc tính style button của bạn ở đây ----- */
+    background-color: black; /* Ví dụ màu nền */
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none; /* Đảm bảo button không bị gạch chân */
+    display: inline-flex; /* Để căn chỉnh icon và text dễ dàng */
+    align-items: center; /* Căn giữa icon và text theo chiều dọc */
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    gap: 10px; /* Khoảng cách giữa icon và text */
+    transition: background-color 0.3s ease; /* Hiệu ứng hover mượt */
+  }
+  
+  .Quiz-link .Quiz-button:hover {
+    background-color: #45a049; /* Ví dụ màu nền khi hover */
+  }
+  
+  /* CSS cho icon bên trong button */
+  .Quiz-link .Quiz-button .Quiz-icon {
+    width: 20px; /* Điều chỉnh kích thước icon */
+    height: 20px;
+    margin-left: 8px; /* Khoảng cách giữa text và icon */
+  }
+.AI-link .AI-button {
+    /* ----- Các thuộc tính style button của bạn ở đây ----- */
+    background-color: black; /* Ví dụ màu nền */
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none; /* Đảm bảo button không bị gạch chân */
+    display: inline-flex; /* Để căn chỉnh icon và text dễ dàng */
+    align-items: center; /* Căn giữa icon và text theo chiều dọc */
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    gap: 10px; /* Khoảng cách giữa icon và text */
+    transition: background-color 0.3s ease; /* Hiệu ứng hover mượt */
+  }
+  
+  .AI-link .AI-button:hover {
+    background-color: #45a049; /* Ví dụ màu nền khi hover */
+  }
+  
+  /* CSS cho icon bên trong button */
+  .AI-link .AI-button .brain-icon {
+    width: 20px; /* Điều chỉnh kích thước icon */
+    height: 20px;
+    margin-left: 8px; /* Khoảng cách giữa text và icon */
+  }

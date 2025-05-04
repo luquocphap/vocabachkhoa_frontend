@@ -1,0 +1,68 @@
+.dictionary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+.dictionary-search-form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.dictionary-search-form input{
+    width: 50%;
+    height: 30px;
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 15px;
+    padding-left: 5px;
+}
+.dictionary-search-form button{
+    width: 10%;
+    height: inherit;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+}
+
+.dictionary-result{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    background-color: rgb(154, 215, 236);
+    color: rgb(0, 0, 0);
+    width: 50%;
+    padding: 30px;
+    border-radius: 15px;
+    gap: 20px;
+}
+
+.dictionary-result button{
+    width: 20%;
+    background-color: black;
+    color: white;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.success{
+    margin-left: auto;
+    margin-right: auto;
+    color: green;
+    font-weight: 550;
+}
+
+.fail{
+    margin-left: auto;
+    margin-right: auto;
+    color: red;
+    font-weight: 550;
+}

@@ -1,0 +1,108 @@
+/* src/Components/Navbars/Navbars.css */
+.Navbars {
+    display: flex;
+    justify-content: space-between; /* Hoặc space-between để phân bố tốt hơn */
+    align-items: center;
+    height: 70px; 
+    padding: 0 50px; 
+    background-color: rgb(151, 186, 246); 
+    color: rgb(89, 60, 5); /* Ví dụ màu chữ */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer; /* Thêm cursor pointer để chỉ ra đây là clickable */
+    gap: 10px; /* Khoảng cách giữa logo và text */
+}
+
+.navbar-logo a{
+    text-decoration: none; /* Bỏ gạch chân cho link */
+    color: inherit; /* Kế thừa màu sắc từ parent */
+}
+
+.navbar-logo img {
+    height: 80px; /* Điều chỉnh kích thước logo */
+    width: auto;
+}
+
+.navbar-logo h1 {
+    font-size: 24px; 
+    font-weight: 600; /* Hoặc 500 tùy theo thiết kế */
+    margin: 0; 
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Khoảng cách giữa các mục menu */
+    margin: 0;
+    padding: 0;
+    gap: 50px; /* Khoảng cách giữa các mục menu */
+}
+
+.navbar-menu li {
+    cursor: pointer;
+    
+}
+
+.navbar-menu li hr {
+    border: none;
+    height: 3px;
+    width: 70%; /* Chiều rộng của đường gạch dưới */
+    background-color: rgb(85, 10, 10); /* Màu cho đường gạch dưới */
+    margin-top: 2px;
+}
+
+.navbar-menu a {
+    color: rgb(89, 30, 8); /* Đảm bảo link có màu dễ thấy trên nền gradient */
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600; /* Hoặc 600 tùy theo thiết kế */
+    font-family: 'Kanit';
+}
+
+.navbar-menu hr {
+  border: none;
+  height: 2px;
+  background-color: white; /* Màu cho đường gạch dưới */
+  margin-top: 2px;
+}
+
+.navbar-login {
+  display: flex;
+  gap: 20px; /* Khoảng cách giữa các nút */
+}
+
+.navbar-login button {
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 65px;
+  height: 50px; 
+  width: 100px;
+  background: linear-gradient(180deg, #ced488, #d6b9a3);
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Kanit';
+  /* Thêm style cho button nếu cần */
+}
+
+.navbar-login button:active {
+    background: #583204;
+    color: white; /* Màu chữ khi nhấn */
+}
+
+
+
+.login a {
+  text-decoration: none;
+}
+
+.user-info{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
